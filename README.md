@@ -12,7 +12,7 @@ Much of the code was designed with the idea it could be expanded upon. This is a
 
 Some code may seem over generalized or avoiding simplification for given use cases because of this. Most have been commented.
 
-## EXAMPLE USAGE
+### Example Usage
 
 ```
 var treeifyBook = require('treeify-book');
@@ -32,7 +32,7 @@ treeifyBook.packageBook({
 });
 ```
 
-## ASSUMPTIONS
+### Assumptions
 
 Book files are *.txt and in the following format (Extracted/created accordingly)...
 
@@ -59,7 +59,7 @@ Book files are *.txt and in the following format (Extracted/created accordingly)
 	------------------ 
 
 	Appendix <or 'Footnotes'>
-	<Rest of file
+	<Rest of file>
 
 	------------------ Create/Fetch: APPENDIX.txt
 
