@@ -12,8 +12,9 @@ Much of the code was designed with the idea it could be expanded upon. This is a
 
 Some code may seem over generalized or avoiding simplification for given use cases because of this. Most have been commented.
 
-** EXAMPLE USAGE
+## EXAMPLE USAGE
 
+```
 var treeifyBook = require('treeify-book');
 
 // Splits book content into seperate files
@@ -29,8 +30,9 @@ treeifyBook.packageBook({
 	bookPath: './example/MonteCristo/',
 	saveToFile: './example/MonteCristo_RECREATED.txt'
 });
+```
 
-** ASSUMPTIONS
+## ASSUMPTIONS
 
 Book files are *.txt and in the following format (Extracted/created accordingly)...
 
