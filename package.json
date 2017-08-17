@@ -1,6 +1,6 @@
 {
   "name": "treeify-book",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts a book to a tree of content, and vice versa",
   "main": "index.js",
   "scripts": {
