@@ -14,17 +14,23 @@ Some code may seem over generalized or avoiding simplification for given use cas
 
 ### Example Usage
 
+1. Install to your node project
+```
+npm install treeify-book
+```
+2. Include in your project
+
 ```
 var treeifyBook = require('treeify-book');
 
 // Splits book content into seperate files
 // returns a promise
 treeifyBook.extractBook({
-	bookName: './example/MonteCristo.txt',
+	bookName: './node_modules/example/MonteCristo.txt',
 	saveToPath: './example/MonteCristo/'
 });
 
-// Repackages book content into one file
+// Repackages book content into one file (assuming it exists)
 // returns a promise
 treeifyBook.packageBook({
 	bookPath: './example/MonteCristo/',
